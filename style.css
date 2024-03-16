@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:black;
+    margin-left: 30px;
+}
+h1{
+    color: white;
+    font-size: 65px;
+    font-weight: 400;
+}
+.div1{
+    color: white;
+    border-bottom: 1px solid white ;
+    padding: 10px;
+    width: fit-content;
+    font-size: 25px;
+}
+.div2{
+    padding-top: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 8px 40px;
+    font-size: large;
+    background-color: white;
+    border: none;
+}
+.div2>button:last-child{
+    background-color: black;
+    color: white;
+    border:1px solid white;
+}
+.div3{
+    color:red;
+    font-size: 25px;
+    padding: 20px 0px;
+}
